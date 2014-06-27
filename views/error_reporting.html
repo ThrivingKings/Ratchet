@@ -1,0 +1,18 @@
+<body style="margin:0;">
+  
+  <div style="font-family:Arial;color:#777;">
+
+    <h2 style="color:#d35400;font-size:40px; padding:10px 20px 0;margin-bottom: 0px;">Critical Ratchet Error</h2>
+
+    <h4 style="color:#e67e22;font-size:30px; padding:0 20px;margin-top: 0px;">{{msg}}</h2>
+
+      {% if backtrace %}
+
+        <div style="padding:40px 20px;background:#ecf0f1;">
+          <pre>{{backtrace}}</pre>
+        </div>
+      
+      {% endif %}
+
+  </div>
+</body>

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Ratchet - An extremely simple, lightweight and flexible PHP framework</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    {% for css in stylsheets %}
+      <link href="{{css}}" rel="stylesheet" media="screen">
+    {% endfor %}
+
+    {% block head %}{% endblock %}
+
+    <!-- Place favicon.png in the root directory -->
+    <link rel="icon" type="image/png" href="favicon.png">
+  </head>
+  <body>
+
+  {% block content %}{% endblock %}    
+
+  {% for js in javascript %}
+    <script src="{{js}}"></script>
+  {% endfor %}
+
+  </body>
+</html>

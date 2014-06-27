@@ -1,0 +1,19 @@
+{
+    "name": "Ratchet",
+    "version": "1.0.0",
+    "description": "An extremely simple, lightweight, and flexible PHP framework",
+    "keywords": ["PHP","framework","simple","MFV"],
+    "homepage": "https://github.com/ThrivingKings/Ratchet",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Daniel Raftery",
+            "homepage": "http://www.thrivingkings.com",
+            "twitter": "ThrivingKings"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.5"
+    }
+}

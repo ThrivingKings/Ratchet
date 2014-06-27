@@ -1,0 +1,10 @@
+# CSS and JavaScript bundling
+# Specify files to be bundled globally or path specific
+---
+
+# Global
+base:
+  css:
+    /lib/css/main.css
+  js:
+    /lib/js/main.js

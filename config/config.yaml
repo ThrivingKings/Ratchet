@@ -1,0 +1,16 @@
+# Global Ratchet configuration
+
+# Application environment
+env:  dev
+
+# Ratchet styled error reporting
+error_reporting: true
+
+# Specify the template directory
+template_dir: views
+
+# Twig template caching
+template_caching: false
+
+# PHP session expiration
+session_expiration: +1 hour

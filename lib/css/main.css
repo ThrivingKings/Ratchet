@@ -1,0 +1,10 @@
+html,body {
+  background-color: #ecf0f1;
+  color: #777;
+  font-family: "Helvetica Neue", "Arial", sans-serif;
+  text-align: center;
+}
+
+body {
+  padding-top: 100px;
+}
